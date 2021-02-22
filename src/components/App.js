@@ -26,7 +26,7 @@ class App extends React.Component {
             <Route exact path="/create" component={CreateBundle} />
           </div>
         </Router>
-      </ApolloProvider >
+      </ApolloProvider>
     );
   }
 }
